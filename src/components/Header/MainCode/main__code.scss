@@ -1,0 +1,27 @@
+.profile-codewars li a {
+  text-decoration: none;
+  background-color: #238636;
+  color: #c9d1d9;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.profile-codewars  li {
+  font-size: 22px;
+}
+
+.profile-codewars a:hover {
+  background-color: #39d353;
+}
+
+pre {
+  width: 100%;
+  margin: 0;
+}
+
+pre {white-space: pre-wrap}
+.main__code-text {
+  word-wrap: break-word;
+  line-height: 30px;
+}

@@ -1,0 +1,37 @@
+.main__wrap {
+  width: 100%;
+
+}
+
+@media (min-width: 803px) {
+  .main__wrap {
+    width: 100%;
+  }
+}
+@media (min-width: 812px) {
+  .main__wrap {
+    width: 58%;
+  }
+}
+
+@media (min-width: 900px) {
+  .main__wrap {
+    width: 63%;
+  }
+}
+
+@media (min-width: 960px) {
+  .main__wrap {
+    width: 65%;
+  }
+}
+@media (min-width: 1000px) {
+  .main__wrap {
+    width: 67%;
+  }
+}
+@media (min-width: 1100px) {
+  .main__wrap {
+    width: 70%;
+  }
+}

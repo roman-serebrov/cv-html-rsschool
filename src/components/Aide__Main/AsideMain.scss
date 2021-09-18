@@ -1,0 +1,29 @@
+.aside_main_wrap  {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 18%;
+}
+.skills-js {
+  li {
+    list-style: disc;
+  }
+}
+
+
+
+@media (min-width: 470px) {
+  .aside_main_wrap {
+    margin-top: 12%;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 740px) {
+  .aside_main_wrap {
+    margin-top: 70px;
+  }
+}
+
+

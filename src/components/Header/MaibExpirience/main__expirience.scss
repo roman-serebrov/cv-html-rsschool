@@ -1,0 +1,14 @@
+.description-experience  {
+  li {
+    line-height: 30px;
+    list-style: disc;
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

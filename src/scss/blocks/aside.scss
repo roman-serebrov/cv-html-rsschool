@@ -1,0 +1,42 @@
+aside {
+  display: none;
+  border-right: 1px solid #484f58;
+  padding: 0 10px;
+  background: $bg-color;
+  ul {
+    li a {
+      text-decoration: none;
+      color: #58a6ff;
+      line-height: 28px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+}
+aside .avatar img {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-position: 20% 20%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.skills {
+  li {
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 812px) {
+  aside {
+    display: block;
+  }
+}
+
+@media (min-width: 1150px) {
+  aside {
+    width: 26%;
+  }
+}

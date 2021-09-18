@@ -8,18 +8,53 @@ html {
   font-size: 16px;
   color: $white;
 }
-
+h1,h2,h3,h4 {
+  margin: 7px 0;
+}
 body {
   font-family: 'Roboto', sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  background: $bg-color;
+  background:#010409;
+  font-size: 18px;
 }
-
+.title h2,h3 {
+  font-weight: 400;
+}
+.title p {
+  font-weight: 300;
+}
 .container {
   @include min-max(320px, 100%, 0);
+  display: flex;
+  justify-content: space-around;
 }
 
 .wrap {
   @include min-max(320px, 100%, 15px);
+}
+li {
+  list-style: none;
+}
+
+.br {
+  width: 100%;
+  border-bottom: 1px solid #484f58;
+}
+
+.education, .contacts, .skills {
+  padding-top: 10px;
+}
+
+.coffeescript {
+  background: #0d1117;
+  color: #40ff00;
+
+}
+
+.hljs-function, .hljs-keyword, .const {
+  color: chocolate;
+}
+.hljs-params {
+  color: #f6a104;
 }

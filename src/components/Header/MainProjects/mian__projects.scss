@@ -1,0 +1,32 @@
+.main__projects {
+
+  .projects__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .block__project {
+      margin: 15px 5px;
+      flex-basis: 25%;
+      background-image: linear-gradient(180deg, rgb(240 246 252 / 10%), #0d1117),linear-gradient(100deg, rgb(56 139 252 / 0.15%) 100%, rgb(46 160 67 / 0.15%), #3c4b32);
+      .project__description {
+        span {
+          color: #484f58;
+        }
+      }
+      .link__project {
+        margin-bottom: 10px;
+        a {
+          text-decoration: none;
+          background-color: #238636;
+          color: #c9d1d9;
+          padding: 8px 20px;
+          border-radius: 6px;
+          font-size: 16px;
+          &:hover {
+            background-color: #39d353;
+          }
+        }
+      }
+    }
+  }
+}
